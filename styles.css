@@ -1,0 +1,309 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: black;
+    background-image: url(images/image1.jpeg);
+    background-position: top center;
+    
+    
+}
+header {
+    z-index: 11;
+    position: sticky;
+    top: 0;
+    margin-top: 50px;
+    width: 500px;
+    height: 50px;
+    font-size: 100px;
+    font-size: 80px;
+}
+
+.about h1{
+        background-color: rgb(29, 29, 29);
+        position: sticky;
+    top: 073px;
+    background-color: ;
+}
+.work h1 {
+    background-color: rgb(63, 63, 63);
+    
+    position: sticky;
+top: 073px;
+background-color: ;
+}
+.nav-home{
+    z-index: 11;
+
+    color: red;
+
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    
+}
+.nav-about{
+    z-index: 11;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: sticky;
+    top: 0;
+    
+}
+.nav-work{
+    z-index: 11;
+
+    color: red;
+
+    text-decoration: none;
+
+    position: sticky;
+    top: 0;
+    
+}
+.nav-resume{
+    z-index: 11;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: sticky;
+    top: 0;
+    
+}
+.nav-contact{
+    z-index: 11;
+
+    color: red;
+    text-decoration: none;
+
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav-img1 {
+    z-index: 11;
+
+
+    position: sticky;
+    top: 0;
+}
+.nav-img2 {
+    z-index: 11;
+
+
+    position: sticky;
+    top: 0;
+}
+.nav-img3 {
+    z-index: 11;
+
+
+    position: sticky;
+    top: 0;
+}
+.nav-img4{
+    z-index: 11;
+
+
+    position: sticky;
+    top: 0;
+}
+.nav-img5 {
+    z-index: 11;
+
+    margin-top: 700px;
+
+    position: sticky;
+    top: 0;
+}
+.nav-img6 {
+    z-index: 11;
+
+    margin-top: 100px;
+    position: sticky;
+    top: 0;
+}
+.about {
+        background-color: rgb(29, 29, 29);
+        margin-bottom: 0px;
+}
+.work1-img{
+    border: 1px solid gray;
+    margin-top: 20px;
+
+    width: 400px;
+    height: 300px;
+}.work2-img img{
+    border: 1px solid gray;
+    margin-top: 20px;
+
+    width: 500px;
+    height: 500px;
+}.work3-img img{
+    border: 1px solid gray;
+    margin-top: 20px;
+
+    width: 500px;
+    height: 300px;
+}.work4-img img{
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 600px;
+}.work5-img img{
+    border: 1px solid gray;
+    margin-top: 20px;
+
+    width: 500px;
+    height: 300px;
+}
+.work-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.work1-img  {  
+    transition: box-shadow .3s;
+
+}
+.work1-img :hover{
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2); 
+
+}
+.work2-img  {  
+    transition: box-shadow .3s;
+
+}
+.work2-img :hover{
+    
+
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2); 
+
+}
+.work3-img  {  
+    
+    transition: box-shadow .3s;
+
+}
+.work3-img :hover{
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2); 
+
+}
+.work4-img  {  
+    margin-left: 50px;
+
+    transition: box-shadow .3s;
+
+}
+.work4-img :hover{
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2); 
+
+}
+.work5-img  {  
+    margin-left: -50px;
+
+    transition: box-shadow .3s;
+
+}
+.work5-img :hover{
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2); 
+
+}
+.work {
+    margin-top: -16px;
+    background-color: rgb(63, 63, 63);
+    margin-bottom: -0px;
+
+}
+.resume {
+    background-color: rgb(117, 117, 117);
+
+}
+.contact {
+    background-color: rgb(170, 170, 170);
+    margin-bottom: -50px;
+
+}
+footer{
+    background-color: rgb(170, 170, 170);
+    margin-top: -0px;
+
+
+}
+.nav-bar-about {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(29, 29, 29);
+    width: 1300px;
+    height: 73px;
+}
+.nav-bar-work {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(63, 63, 63);
+    width: 1300px;
+    height: 73px;
+}
+.nav-bar-resume {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(117, 117, 117);
+    width: 1300px;
+    height: 90px;
+}
+.nav-bar-contact {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(170, 170, 170);
+    width: 1300px;
+    height: 90px;
+}
+
+.div-hover1 :hover {
+    color: black;
+}
+
+.contact {
+    height: 600px;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.contact li {
+    margin-top: 100px;
+
+    position: sticky;
+    top: 0;
+    list-style: none;
+    line-height: 50px;
+}
+
+.contact h1 {
+    margin-top: 250px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(170, 170, 170);
+    height: 50px;
+
+}
+.contact a {
+    text-decoration: none;
+}
