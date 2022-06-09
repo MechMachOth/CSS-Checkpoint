@@ -242,6 +242,8 @@ footer{
 
 }
 .nav-bar-about {
+    margin-top: 5px;
+
     position: sticky;
     top: 0;
     z-index: 10;
@@ -250,6 +252,8 @@ footer{
     height: 73px;
 }
 .nav-bar-work {
+    margin-top: 5px;
+
     position: sticky;
     top: 0;
     z-index: 10;
@@ -258,6 +262,8 @@ footer{
     height: 73px;
 }
 .nav-bar-resume {
+    margin-top: 5px;
+
     position: sticky;
     top: 0;
     z-index: 10;
@@ -273,7 +279,11 @@ footer{
     width: 1300px;
     height: 90px;
 }
-
+hr {
+    z-index: 20;
+    position: sticky;
+    top: 0;
+}
 .div-hover1 :hover {
     color: black;
 }
